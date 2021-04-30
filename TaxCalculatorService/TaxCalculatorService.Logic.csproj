@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TaxCalculatorService.Common\TaxCalculatorService.Common.csproj" />
+    <ProjectReference Include="..\TaxCalculatorService.Data\TaxCalculatorService.Data.csproj" />
+  </ItemGroup>
+</Project>
